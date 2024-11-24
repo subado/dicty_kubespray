@@ -53,11 +53,11 @@ $vm_memory ||= 2048
 $vm_cpus ||= 2
 $shared_folders ||= {}
 $forwarded_ports ||= {}
-$subnet ||= "172.18.8"
+$subnet ||= "192.168.56"
 $subnet_ipv6 ||= "fd3c:b398:0698:0756"
 $os ||= "ubuntu2004"
 $network_plugin ||= "flannel"
-$inventory ||= "inventory/sample"
+$inventory ||= "inventory/staging"
 $inventories ||= [$inventory]
 # Setting multi_networking to true will install Multus: https://github.com/k8snetworkplumbingwg/multus-cni
 $multi_networking ||= "False"
